@@ -35,7 +35,6 @@ else{
 		'pg_lifetime'			=> (int)PL_LIFETIME*60,
 		'pg_testing_mode'		=> (PL_TEST_MODE)? 1 : 0 ,
 		'pg_description'		=> $strDescription,
-		'pg_user_ip'			=> $_SERVER['REMOTE_ADDR'],
 		'pg_language'			=> $strLang,
 		'pg_check_url'			=> 'http://'.PL_DOMAIN_URL.'/assets/snippets/payment/result.php',
 		'pg_result_url'			=> 'http://'.PL_DOMAIN_URL.'/assets/snippets/payment/result.php',
